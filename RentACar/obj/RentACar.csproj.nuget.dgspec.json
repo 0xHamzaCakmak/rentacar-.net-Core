@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\RentACar\\RentACar\\RentACar\\RentACar.csproj": {}
+    "C:\\Users\\reela\\Desktop\\RentACar\\RentACar\\RentACar\\RentACar.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\RentACar\\RentACar\\RentACar\\RentACar.csproj": {
+    "C:\\Users\\reela\\Desktop\\RentACar\\RentACar\\RentACar\\RentACar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\RentACar\\RentACar\\RentACar\\RentACar.csproj",
+        "projectUniqueName": "C:\\Users\\reela\\Desktop\\RentACar\\RentACar\\RentACar\\RentACar.csproj",
         "projectName": "RentACar",
-        "projectPath": "D:\\Projects\\RentACar\\RentACar\\RentACar\\RentACar.csproj",
+        "projectPath": "C:\\Users\\reela\\Desktop\\RentACar\\RentACar\\RentACar\\RentACar.csproj",
         "packagesPath": "C:\\Users\\reela\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\RentACar\\RentACar\\RentACar\\obj\\",
+        "outputPath": "C:\\Users\\reela\\Desktop\\RentACar\\RentACar\\RentACar\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\reela\\AppData\\Roaming\\NuGet\\NuGet.Config",
