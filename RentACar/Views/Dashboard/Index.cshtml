@@ -1,0 +1,35 @@
+﻿@model IEnumerable<RentACar.Models.CarModel>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Giriş yaptım ana sayfa burası</h2>
+
+
+
+<div class="row">
+
+    @foreach (var item in Model)
+    {
+        <div class="col-md-6">
+
+            <h4 style="margin-bottom:30px" class="col-md-6"></h4>
+
+            <form asp-action="KiralananArac">
+                <div class="card mb-4">
+                    <img src="~/images/@Html.DisplayFor(modelItem => item.Carimage)" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">@Html.DisplayFor(modelItem => item.Carmodel)</h4>
+                        <h4 class="card-title">@Html.DisplayFor(modelItem => item.Carbrand)</h4>
+                        <h4 class="card-title"> @Html.DisplayFor(modelItem => item.Gearbox)</h4>
+                        <strong class="card-text"> @Html.DisplayFor(modelItem => item.Price)  / Günlük</strong>
+                        <br />
+                        <br />
+                        <a href="#" class="btn btn-primary">Kirala</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    }
+</div>
+
